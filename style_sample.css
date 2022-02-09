@@ -64,6 +64,21 @@ div {
     color: rgb(100, 168, 200);
 }
 
+.flex-container {
+          display: flex;
+          flex-wrap: nowrap;
+          background-color: orange;
+        }
+
+      .flex-container > div {
+          background-color: grey;
+          width: 200px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+      }
+
 .background-image-class {
     background-image: url(https://placeimg.com/400/200/any); background-repeat: no-repeat;
     color: white;
